@@ -1,4 +1,4 @@
-FROM scratch
+FROM alpine:3.7
 
 COPY nats-streaming-server /nats-streaming-server
 
